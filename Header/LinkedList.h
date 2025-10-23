@@ -21,6 +21,16 @@ class LinkedList {
         virtual void set (T e, ll index) = 0;
         ll size() const;
         ll empty() const;
+        friend class Iterator;
+
+        class Iterator {
+            private:
+                int idx = 0;
+                Node* 
+            public:
+
+            friend class Linkedlist;
+        };
 
 };
 
